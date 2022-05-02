@@ -75,7 +75,7 @@ class BinarySearchTree {
                 }
                 if (node.data === data) {
                     console.log(data);
-                    return data;
+                    return node;
                     
                 }
 
@@ -160,11 +160,9 @@ class BinarySearchTree {
 
             return node.data;
         }
+        
         root(){
-           
-            if (!this.srt) {
-                return;
-            }else   return this.srt
+           return this.srt;
 
   }
 }
